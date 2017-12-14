@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<true/>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://raw.githubusercontent.com/shaozg/install_ipa/kwplayer.ipa</string>
+		<key>displayImageURL</key>
+		<string>https://image.kuwo.cn/mpage/h5app/air/kwplayer.57x57.png</string>
+		<key>fullSizeImageURL</key>
+		<string>https://image.kuwo.cn/mpage/h5app/air/kwplayer.512x512.png</string>
+	</dict>
+	<key>method</key>
+	<string>ad-hoc</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.yeelion.kwplayer</key>
+		<string>iPhone_adhoc</string>
+		<key>com.yeelion.kwplayer.KWIMessageExtension</key>
+		<string>KWIMessageExtension_adhoc</string>
+		<key>com.yeelion.kwplayer.KWNotificationContent</key>
+		<string>KWNotificationContent_adhoc</string>
+		<key>com.yeelion.kwplayer.KWNotificationService</key>
+		<string>KWNotificationService_adhoc</string>
+		<key>com.yeelion.kwplayer.KWWedgit</key>
+		<string>iPhone_wedgit_adhoc</string>
+		<key>com.yeelion.kwplayer.watchkitapp</key>
+		<string>watchkitapp_adhoc</string>
+		<key>com.yeelion.kwplayer.watchkitapp.watchkitextension</key>
+		<string>watchkitextension_adhoc</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>iPhone Distribution</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>G33MN8M2BW</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>
